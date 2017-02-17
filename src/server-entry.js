@@ -2,6 +2,14 @@ import { app, router, store } from './app'
 
 const isDev = process.env.NODE_ENV !== 'production'
 
+import axios from 'axios'
+axios.defaults.baseURL = 'http://localhost:8080';
+
+/*import fetch from 'node-fetch';
+const res = await fetch('http://localhost:8080/api/v1/channel_class/');
+console.log(res);*/
+
+
 // This exported function will be called by `bundleRenderer`.
 // This is where we perform data-prefetching to determine the
 // state of our application before actually rendering it.

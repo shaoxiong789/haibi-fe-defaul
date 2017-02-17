@@ -2,8 +2,15 @@ import Vue from 'vue'
 import App from './App.vue'
 import store from './store'
 import router from './router'
+import VueResource from 'vue-resource'
+import VueAsyncData from 'vue-async-data'
 import { sync } from 'vuex-router-sync'
 import * as filters from './filters'
+
+Vue.use(VueAsyncData);
+Vue.use(VueResource);
+//ie浏览器兼容Assign的补丁
+Object.assign = require('object-assign');
 
 // sync the router with the vuex store.
 // this registers `store.state.route`

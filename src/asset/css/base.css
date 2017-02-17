@@ -1,0 +1,19 @@
+a {
+  text-decoration: none;
+  outline: 0;
+  color: #333;
+}
+blockquote, body, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, html, input, legend, li, ol, p, pre, td, textarea, th, ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+input{
+outline:none
+}
+ul{
+list-style: none;
+}
+body{
+	font: 400 12px/1.5 '\5FAE\8F6F\96C5\9ED1','\5b8b\4f53',arial,tahoma;
+}

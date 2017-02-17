@@ -5,7 +5,6 @@ module.exports = {
   entry: {
     app: './src/client-entry.js',
     vendor: [
-      'es6-promise',
       'firebase/app',
       'firebase/database',
       'vue',
@@ -46,6 +45,14 @@ module.exports = {
         options: {
           limit: 10000,
           name: 'img/[name].[ext]?[hash]'
+        }
+      },
+      {
+        test: /\.htc$/,
+        loader: "file-loader?name=htc/[hash:8].[name].[ext]",
+        options: {
+          limit: 10000,
+          name: 'htc/[name].[ext]?[hash]'
         }
       },
       { test: /\.css$/,loader: ExtractTextPlugin.extract({
