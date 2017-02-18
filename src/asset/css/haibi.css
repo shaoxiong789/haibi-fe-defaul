@@ -500,7 +500,7 @@ a .ui-collect .ico01 {
 }
 .itabcont, .ui-list-pics.ui-180x240 {
     position: relative;
-}.grid-1230 .grid .ui-list-pics ul.w4 {
+} .grid .ui-list-pics ul.w4 {
     width: 606px;
 }.ui-180x240 ul {
     display: block;
@@ -511,7 +511,7 @@ a .ui-collect .ico01 {
     margin-top: 10px;
 }.ui-180x100 ul, .ui-180x240 ul, .ui-list-pics {
     position: relative;
-}.grid-1230 .grid .ui-list-pics ul.w4 {
+} .grid .ui-list-pics ul.w4 {
     width: 606px;
 }.ui-180x240 ul {
     display: block;
@@ -619,8 +619,8 @@ a .ui-collect .ico01 {
     overflow: hidden;
 }.grid .m, .grid .s, .grid .sp, .module, .ui-2016-tit {
     position: relative;
-}.grid-1230 .grid .m2 {
-    width: 988px;
+} .grid .m2 {
+    width: 1002px;
 }.grid .m {
     float: left;
 }.module .m, .module .s {
@@ -629,8 +629,6 @@ a .ui-collect .ico01 {
     position: relative;
 }.module .m, .module .s {
     height: 100%;
-}.ui-2016-tit.cf {
-    min-width: 550px;
 }
 .ui-2016-tit {
     width: 100%;
@@ -666,4 +664,213 @@ a .ui-collect .ico01 {
 }.ui-2016-tit ul {
     margin-top: 4px;
     overflow: hidden;
+} .grid .ui-list-pics ul.w4 {
+    width: 620px;
+}.ui-180x240 ul {
+    display: block;
+    float: left;
+    height: 295px;
+    overflow: hidden;
+}.ui-180x100 ul, .ui-180x240 ul, .ui-list-pics.index-topic ul li.topic2, .ui-list-pics.index-topic2 ul li.topic2 {
+    margin-top: 10px;
+}.ui-180x100 ul, .ui-180x240 ul, .ui-list-pics {
+    position: relative;
+}.grid .ui-list-pics ul.w6 {
+    width: 1020px;
+}.grid .ui-list-pics ul.ml-22 {
+    margin-left: -22px;
+}.ui-180x240 ul {
+    display: block;
+    float: left;
+    height: 295px;
+    overflow: hidden;
+}
+.grid{
+    display: table;
+}.module.cf{
+    display: table-row;
+}
+.grid .s2 {
+    margin-left: 22px;
+    width: 180px;
+}.grid .s {
+    display: table-cell;
+}.module .m, .module .s {
+    display: table-cell;
+}.grid .m, .grid .s, .grid .sp, .module, .ui-2016-tit {
+    position: relative;
+}.module .m, .module .s {
+    height: 100%;
+}.cf, .grid {
+    zoom: 1;
+}.cf {
+    zoom: 1;
+}.ui-2016-tit {
+    width: 100%;
+    height: 25px;
+    color: #333;
+    margin: 20px 0 10px;
+}.grid .m, .grid .s, .grid .sp, .module, .ui-2016-tit {
+    position: relative;
+}.ui-2016-tit .tit-w1 {
+    margin-right: 6px;
+}.ui-2016-tit .tit-w1 {
+    float: left;
+    height: 28px;
+    width: 140px;
+    margin-right: 10px;
+}.ui-2016-tit .tit-w1 .hdt-s {
+    display: inline-block;
+    height: 28px;
+    width: 140px;
+    overflow: hidden;
+}.ui-2016-tit .tit-w1 a {
+    font-size: 23px;
+    font-weight: 400;
+}.ui-side-rank.ui-side-rank2 {
+    height: 291px;
+}.t10 {
+    margin-top: 10px;
+}.ui-side-rank {
+    width: 180px;
+    overflow: hidden;
+    font-size: 14px;
+    padding-bottom: 4px;
+}.module-sportindex .ui-list-pics ul li .ui-list-ct:hover .ui-txt, .ui-side-rank {
+    background: #eee;
+}.cf, .grid {
+    zoom: 1;
+}.ui-side-rank .side-rank-top .side-rank-ct {
+    display: block;
+    position: relative;
+}.ui-side-rank.ui-side-rank2 .side-rank-top .side-rank-ct img {
+    height: 90px;
+}.ui-side-rank .side-rank-top .side-rank-ct img {
+    width: 180px;
+    height: 100px;
+    background: url(http://static9.pplive.cn/pub/flagment/v_20140910122440/basic/images/index-list-bg.jpg) center no-repeat #eee;
+}.ui-side-rank .side-rank-top .side-rank-ct .rank-tt {
+    position: relative;
+    width: 130px;
+    height: 16px;
+    margin: 0 0 0 10px;
+    padding: 0 0 10px 40px;
+    border-bottom: 1px dotted #333;
+    color: #333;
+    font-weight: 700;
+    z-index: 10;
+}.ui-side-rank .side-rank-top .side-rank-ct .rank-tt span {
+    position: absolute;
+    left: 0;
+    bottom: 9px;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    font-size: 32px;
+    background: #fd9b27;
+    color: #fff;
+    font-weight: 400;
+    z-index: 2;
+}.ui-side-rank .side-rank-top .side-rank-ct .rank-tt cite {
+    display: block;
+    overflow: hidden;
+    width: 124px;
+    height: 26px;
+    line-height: 26px;
+}.ui-side-rank {
+    width: 180px;
+    overflow: hidden;
+    font-size: 14px;
+    padding-bottom: 4px;
+}a .ui-collect {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 5;
+    display: none;
+}a .ui-collect .ico01 {
+    width: 20px;
+    height: 20px;
+    background: url(http://sr3.pplive.com/cms/29/68/d0dd0759528f1662f2a0553c1284db98.png) -24px 0;
+    display: block;
+}.ui-side-rank ul {
+    margin-left: 10px;
+    width: 170px;
+    overflow: hidden;
+}.ui-side-rank ul li {
+    height: 17px;
+    line-height: 17px;
+    width: 100%;
+    margin: 15px 0;
+    overflow: hidden;
+}.ui-side-rank ul li span.top3 {
+    background: #fd9b27;
+}.ui-side-rank ul li span {
+    display: inline-block;
+    float: left;
+    width: 17px;
+    height: 17px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    background: #a7a7a7;
+}.ui-side-rank ul li {
+    height: 17px;
+    line-height: 17px;
+    width: 100%;
+    margin: 15px 0;
+    overflow: hidden;
+}.t10 {
+    margin-top: 10px;
+}.ui-side-list {
+    width: 180px;
+    height: 295px;
+    overflow: hidden;
+}.ui-side-list ul {
+    overflow: hidden;
+}.ui-side-list ul li {
+    margin-bottom: 12px;
+    overflow: hidden;
+}.ui-side-list ul li, .ui-side-list ul li a, .ui-side-list ul li a img {
+    height: 90px;
+    width: 180px;
+}.ui-side-list ul li a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}.ui-side-list ul li, .ui-side-list ul li a, .ui-side-list ul li a img {
+    height: 90px;
+    width: 180px;
+}.ui-side-list ul li, .ui-side-list ul li a, .ui-side-list ul li a img {
+    height: 90px;
+    width: 180px;
+}.ui-side-list ul li a .mask {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+    width: 180px;
+    height: 28px;
+    background: #000;
+    opacity: .5;
+    filter: alpha(opacify=50);
+}.ui-side-list ul li a .mask-cont {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+    width: 160px;
+    height: 28px;
+    padding: 0 10px;
+    line-height: 28px;
+    color: #fff;
+    font-size: 14px;
+}.module.cf{
+    overflow: hidden;
+    width: 1220px;
 }

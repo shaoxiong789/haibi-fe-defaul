@@ -1,3 +1,4 @@
+import 'babel-polyfill';
 import Vue from 'vue'
 import App from './App.vue'
 import store from './store'
@@ -6,7 +7,14 @@ import VueResource from 'vue-resource'
 import VueAsyncData from 'vue-async-data'
 import { sync } from 'vuex-router-sync'
 import * as filters from './filters'
+import vueLazy from 'vue2.0-image-lazy';
 
+Vue.use(vueLazy, {
+	loading: 'imgs/default.jpg', //default image, if element has 'src' attribute, ignore this 
+	error: 'imgs/error.jpg' //if image load failed, try to load the image 
+});
+/*import vueLazyImg from 'vue-lazyloadimg';
+Vue.use(vueLazyImg);*/
 Vue.use(VueAsyncData);
 Vue.use(VueResource);
 //ie浏览器兼容Assign的补丁

@@ -12,6 +12,6 @@ export default new Router({
   scrollBehavior: () => ({ y: 0 }),
   routes: [
     { path: '/', component: HomeView },
-    { path: '/type/:type', component: HomeView }
+    { path: '/type/:type', component: Navigation }
   ]
 })

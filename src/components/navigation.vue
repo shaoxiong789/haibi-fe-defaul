@@ -17,10 +17,10 @@
           <ul class="cf">
               <!--以15个为上限-->
               <li>
-                <router-link  :to="{name:''}" class="hb-sub-tab-top" >首页</router-link>
+                <router-link  :to="'/'" class="hb-sub-tab-top" >首页</router-link>
               </li>
               <li v-for="top_item in programClass" class="w_3">
-                <router-link  to="/type" class="hb-sub-tab-top" v-text="top_item.ClassName"></router-link>
+                <router-link  :to="{path:'/type/' + top_item.ClassUuid }"  class="hb-sub-tab-top" v-text="top_item.ClassName"></router-link>
                 <div class="hb-sub-tab">
                   <div class="hb-sub-tab-subs">
                     <a href="http://v.pptv.com/show/o5lz8VmicL23QTrY.html" target="_play"
